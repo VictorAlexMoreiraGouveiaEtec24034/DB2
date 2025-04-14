@@ -1,0 +1,8 @@
+Exercícios BD2 
+Acessar o banco de dados BDEscolar para os exercícios abaixo:
+1. Inserir duas novas atividades na tabela Atividade;
+2. Inserir dois professors na tabela Professor;
+3. Após inserir os dados acima, selecione os dados de ambas as tabelas;
+4. Atualize algum dado de algum professor, especificando a sua matricula;
+
+5. Excluir uma das atividades, especificando o seu ID.
