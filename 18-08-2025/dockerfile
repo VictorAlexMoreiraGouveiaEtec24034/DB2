@@ -1,0 +1,7 @@
+FROM mysql
+WORKDIR /app
+COPY index.sql /app/
+COPY loja.sql /app/
+COPY Views.sql /app/
+CMD [ "\.", "loja.sql"]
+EXPOSE 3306
