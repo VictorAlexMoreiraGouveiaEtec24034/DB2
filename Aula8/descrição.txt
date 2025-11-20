@@ -1,0 +1,1 @@
+Execicios práticos, do arquivo "clinica.sql"

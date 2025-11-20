@@ -1,0 +1,1 @@
+Altera e atualiza os dados da tabela "cadastro" do arquivo 'escolaTI.sql'

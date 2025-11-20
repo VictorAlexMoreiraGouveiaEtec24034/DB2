@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS Professores(
     Email VARCHAR(45) NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS Estudante_Ativiada(
+CREATE TABLE IF NOT EXISTS Estudante_Atividade(
 	RM_Estudante INT NOT NULL,
     ID_Atividade INT NOT NULL,
     Mencao VARCHAR(2) NOT NULL, 

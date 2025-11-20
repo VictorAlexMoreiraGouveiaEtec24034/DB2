@@ -1,0 +1,12 @@
+Criação da modelagem de dados "DER" de uma clinica. E criação do banco de dados "clinica_medica" com arquivo chamado "clinica.sql" possui tablemas de:
+- Pacientes
+- Medicos
+- Funcionarios
+- Agendamentos
+- HistoricoMedico
+- Medicamentos
+- Prescricoes (Precrições)
+- Exames
+- ResultadosExames
+- Dados preenchidos
+

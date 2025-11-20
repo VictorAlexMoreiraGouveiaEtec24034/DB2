@@ -1,0 +1,8 @@
+FROM mysql:lts
+WORKDIR /app
+COPY ./Databases/ ./
+COPY ./Databases/loja.sql /docker-entrypoint-initdb.d/
+COPY ./Databases/quizetec.sql /docker-entrypoint-initdb.d/
+COPY ./Databases/escolaTI.sql /docker-entrypoint-initdb.d/
+
+EXPOSE 3306

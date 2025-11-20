@@ -1,0 +1,8 @@
+Criado o banco de dados DBEscolar criado as tabelas
+-  Curso
+- Disciplina
+- Estudante
+- Atividade
+- Professores
+- Estudante_Atividade
+- Adição de valores

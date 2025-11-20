@@ -1,0 +1,5 @@
+Criando banco de dados "cadastro" com as seguintes tabelas
+- curso
+- estudantecursa
+- estudante
+- Dados inseridos
