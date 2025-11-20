@@ -1,0 +1,11 @@
+list procedures:
+    - Conectar ao banco de dados
+    - USE 'banco'
+    SHOW PROCEDURE STATUS WHERE db = 'nome_do_banco';
+
+command for starting docker:
+    docker run -it --name EscolaDB -e MYSQL_ROOT_PASSWORD=2007 -v E:\Pessoal\Desenvolvimento\Pratica\Escola\DB2\25-08-2025\filesSQL:/app/filesSQL -p 3300:3300 escola
+
+# Copia os scripts .sql para o diretório de inicialização do MySQL.
+# Isso garante que eles sejam executados na primeira vez que o contêiner for iniciado.
+COPY ./filesSQL/ /docker-entrypoint-initdb.d/

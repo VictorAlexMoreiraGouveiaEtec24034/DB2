@@ -1,0 +1,5 @@
+FROM mysql:lts
+WORKDIR /app
+COPY ./filesSQL/ ./
+COPY ./filesSQL/loja.sql /docker-entrypoint-initdb.d/
+EXPOSE 3306
